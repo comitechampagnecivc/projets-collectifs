@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Titre de la page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Nom du site</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Accueil</a></li>
+				<li><a href="#">À propos</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section>
+			<h2>Derniers articles</h2>
+			<article>
+				<header>
+					<h3>Titre de l'article</h3>
+					<p>Auteur de l'article</p>
+				</header>
+				<p>Résumé de l'article</p>
+				<a href="#">Lire l'article</a>
+			</article>
+			<article>
+				<header>
+					<h3>Titre de l'article</h3>
+					<p>Auteur de l'article</p>
+				</header>
+				<p>Résumé de l'article</p>
+				<a href="#">Lire l'article</a>
+			</article>
+			<article>
+				<header>
+					<h3>Titre de l'article</h3>
+					<p>Auteur de l'article</p>
+				</header>
+				<p>Résumé de l'article</p>
+				<a href="#">Lire l'article</a>
+			</article>
+		</section>
+
+		<section>
+			<h2>Catégories</h2>
+			<ul>
+				<li><a href="#">Catégorie 1</a></li>
+				<li><a href="#">Catégorie 2</a></li>
+				<li><a href="#">Catégorie 3</a></li>
+				<li><a href="#">Catégorie 4</a></li>
+			</ul>
+		</section>
+	</main>
+
+	<footer>
+		<p>Copyright ©
