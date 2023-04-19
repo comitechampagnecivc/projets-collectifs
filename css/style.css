@@ -1,0 +1,74 @@
+/* Applique une couleur de fond et une police à l'en-tête */
+header {
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Centre le titre dans l'en-tête */
+header h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Style de la navigation */
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Ajoute un fond et une bordure à la section principale */
+main {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+}
+
+/* Centre le titre de la section principale */
+main h2 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Ajoute un espacement entre les paragraphes */
+main p {
+  margin-bottom: 10px;
+}
+
+/* Ajoute un style au bouton */
+button {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+/* Applique un style au pied de page */
+footer {
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
