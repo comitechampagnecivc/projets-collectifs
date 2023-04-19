@@ -53,7 +53,16 @@ main h2 {
 main p {
   margin-bottom: 10px;
 }
+/* couleurs liste déroulante */
+select {
+  background-color: #fff;
+  color: #333;
+}
 
+option {
+  background-color: #f0f0f0;
+  color: #333;
+}
 /* Ajoute un style au bouton */
 button {
   background-color: #333;
