@@ -11,29 +11,33 @@
       <h1>Projets collectifs en Champagne</h1>
       <nav>
         <ul>
-          <li><a href="#">Accueil</a></li>
+          <li><a href="index.html">Accueil</a></li>
           <li><a href="projets.html">Les projets</a></li>
-          <li><a href="#">Les financements</a></li>
-          <li><a href="#">Les partenaires</a></li>
-          <li><a href="#">Outils et documents</a></li>
+          <li><a href="financements.html">Les financements</a></li>
+          <li><a href="partenaires.html">Les partenaires</a></li>
+          <li><a href="outils.html">Outils et documents</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section>
         <p>Guide de mise en oeuvre de projets collectifs en Champagne</p>
-        <img src="images/LogoVignesLab.png" alt="LogoVignesLab">
-        <h2>Choisissez une option :</h2>
-  <select>
-    <option value="option1">Option 1</option>
-    <option value="option2">Option 2</option>
-    <option value="option3">Option 3</option>
-  </select>
+        <h1>Outil de calcul</h1>
+		<form>
+			<label for="nombre1">Nombre 1 :</label>
+			<input type="number" id="nombre1" name="nombre1"><br>
+			<label for="nombre2">Nombre 2 :</label>
+			<input type="number" id="nombre2" name="nombre2"><br>
+			<button type="button" onclick="calculer()">Calculer</button><br>
+			<label for="resultat">Résultat :</label>
+			<input type="text" id="resultat" name="resultat" readonly>
+		</form>
         <button>Cliquez ici</button>
       </section>
     </main>
+    <script src="js/script.js"></script>
     <footer>
-      <p>Tous droits réservés &copy; 2023</p>
+      <p></p>
     </footer>
   </body>
 </html>
